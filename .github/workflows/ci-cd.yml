@@ -42,4 +42,4 @@ jobs:
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/day20-project:latest
             sudo docker stop day20-app || true
             sudo docker rm day20-app || true
-            sudo docker run -d --name day20-app ${{ secrets.DOCKER_USERNAME }}/day20-project:latest
+            sudo docker run -d --name day20-app -p 8081:8081 ${{ secrets.DOCKER_USERNAME }}/day20-project:latest
