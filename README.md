@@ -1,4 +1,4 @@
-# Day20 CI/CD Pipeline Project
+#  CI/CD Pipeline Project
 
 ## Project Overview
 
